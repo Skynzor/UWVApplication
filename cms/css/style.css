@@ -1,0 +1,225 @@
+*, html, body {
+	margin:0;padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.topbar {
+	height:50px;
+	background-color: #0095d1;
+	position: relative;
+	padding:15px;
+	display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+}
+
+.topbar a {
+	color:white;
+}
+
+.logo {
+	height:50px;
+	color:white;
+
+}
+
+.logout {
+	height:50px;
+	color: white;
+}
+
+.searchbar {
+	height:50px;
+	padding: 15px;
+	background-color: #d6efff;
+	text-align: center;
+	line-height: 50px;
+	color:#0095d1;
+}
+
+.searchbar input, .searchbar select{
+	color: grey;
+	padding:10px;
+	border:none;
+	margin:0 20px;
+}
+
+.searchbar button{
+	color: white;
+	padding:10px;
+	margin:0 20px 0 0 ;
+	background-color: #0095d1;
+	border:solid 2px white;
+	font-weight: bold;
+}
+
+.searchbar button:hover{
+	color: black;
+	padding:10px;
+	margin:0 20px 0 0 ;
+	background-color: #d6efff;
+	border:solid 2px white;
+	box-shadow: 0 0 4px grey;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.addvacancybar {
+	height:50px;
+	padding: 15px;
+	background-color: lightgrey;
+	text-align: center;
+	line-height: 50px;
+}
+
+.addvacancybar a {
+	color: white;
+}
+
+.vacancylistitem {
+
+	border-bottom:1px solid lightgrey;
+	padding:10px;
+
+}
+
+.itempiece {
+	width:15%;
+	float: left;
+	line-height: 50px;
+
+}
+
+.vacancytable td{
+	padding:20px;
+
+}
+
+.vacancytable{
+    //width:100%;
+    margin:0 auto;
+    position: relative;
+    border-collapse:collapse;
+	color: #666;
+}
+
+.vacancytable tr{
+	border-bottom: 1pt solid lightgrey;
+}
+
+.vacancytable td p {
+	font-size: 10px;
+}
+
+.vacancytable button{
+	color: #0095d1;
+	padding:10px;
+	margin:0 20px 0 0 ;
+	background-color: white;
+	border:solid 2px white;
+	font-weight: bold;
+}
+
+.vacancytable button:hover{
+	color: black;
+	padding:10px;
+	margin:0 20px 0 0 ;
+	background-color: #d6efff;
+	border:solid 2px white;
+	box-shadow: 0 0 4px grey;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button{
+	color: white;
+	padding:10px;
+	margin:0 20px 0 0 ;
+	background-color: #0095d1;
+	border:solid 2px white;
+	font-weight: bold;
+}
+
+.button:hover{
+	color: black;
+	padding:10px;
+	margin:0 20px 0 0 ;
+	background-color: #d6efff;
+	border:solid 2px white;
+	box-shadow: 0 0 4px grey;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.space {
+	height:60px;
+}
+
+.editblock {
+
+	width: 800px;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+    color: #0095d1;
+}
+
+.edititem {
+	margin:5px;
+		text-align: left;
+}
+
+.edititem input, .edititem select, .edititem textarea{
+	color: white;
+	padding:10px;
+	border:none;
+	margin:10px 0 20px;
+	background-color: #123456;
+	font-family: 'Open Sans'; 
+}
+
+.edititem textarea {
+            width: 770px;
+            height: 100px;
+}
+
+.searchbar a {
+	font-size: 14px;
+	text-decoration: none;
+}
+
+.loginbox {
+	background-color: #0095d1;
+	color:white;
+	padding:20px;
+	width:200px;
+	margin:0 auto;
+	margin-top:10%;
+}
+
+.loginbox input, .loginbox select{
+	color: grey;
+	padding:10px;
+	border:none;
+}
+
+.viewtext {
+	color: white;
+	padding:10px;
+	border:none;
+	margin:10px 0 20px;
+	background-color: grey;
+	font-family: 'Open Sans';
+}
+
+.edititem input, .edititem select, .edititem textarea{
+	color: white;
+	padding:10px;
+	border:none;
+	margin:10px 0 20px;
+	background-color: #999;
+	font-family: 'Open Sans'; 
+}
