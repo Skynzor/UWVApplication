@@ -24,9 +24,11 @@ html, body
 
 .text
 {
-  
-  font-size: 100%;
-  font-family: "Verdana";
+    float: left;
+    font-size: 100%;
+    font-family: "Verdana";
+    line-height: 375%
+        
 }
 
 .vacancy
