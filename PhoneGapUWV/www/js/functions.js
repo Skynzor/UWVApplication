@@ -51,10 +51,13 @@ function hidePopUpScreen()
 // Toon het overzicht met alle beschikbare vacatures.
 function switchToAllVacancies()
 {
+    $("#chosenVacancy").hide();
+  $("#main2").hide();
   $("#headerText").text("Beschikbare Vacatures:");
   $("#backbutton").hide();
-  $("#chosenVacancy").hide();
+  $("#main").show();
   $("#allVacancies").show();
+  $("#footer").hide();
 };
 
 // Toon de gegevens van de geselecteerde vacature.
@@ -62,6 +65,9 @@ function switchToChosenVacancy()
 {
   $("#headerText").text("Gekozen Vacature:");
   $("#allVacancies").hide();
+  $("#main").hide();
   $("#backbutton").show();
   $("#chosenVacancy").show();
+  $("#main2").show();
+  $("#footer").show();
 };

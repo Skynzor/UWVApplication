@@ -45,6 +45,7 @@ function getDetailsFromArray(vacancy, array)
 // Voeg de specifieke gegevens toe aan het div element "chosenVacancy".
 function appendToDetailsPage(vacancy, description, requirements, hours, categoryID)
 {
+    
   var chosenBranch;
 
   $("#chosenVacancy").empty();

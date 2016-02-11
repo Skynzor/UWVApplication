@@ -1,38 +1,48 @@
-body
+html, body
 {
   width: 100%;
   height: 100%;
-  padding: 0px;
-  margin: 0px;
+  padding: 0%;
+  margin: 0%;
   background-color: #FFFFFF;
+}
+
+#container
+{
+  width: 100%; 
+  height: 100%;    
+  background-color: white;
 }
 
 .icon
 {
-  width: 35px;
-  height: 35px;
-  padding-right: 40px;
+  float: left;
+  width: 15%;
+  height: 100%;
+  padding-left: 2%;
 }
 
 .text
 {
-  font-weight: bold;
-  font-size: 2.0vw;
-  font-family: "Cambria";
-  padding-left: 35px;
+  
+  font-size: 100%;
+  font-family: "Verdana";
 }
 
 .vacancy
 {
-  width: auto;
-  height: 75px;
+  float: left;
+  width: 100%;
+  height: 10%;
   color: #FFFFFF;
-  padding-top: 35px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-indent: 5%;
 }
 
 .input
 {
-  height: 30px;
+  height: 0%;
   text-align: center;
   color: #0094d0;
   font-weight: bold;
@@ -40,60 +50,106 @@ body
 
 #header
 {
+  font-weight: bold;
+  float: left;
   width: 100%;
-  height: 75px;
+  height: 12%;
   background-color: #0094d0;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 #logo
 {
-  position: absolute;
-  top: 25px;
-  left: 25px;
+  float: left;
+    width: 15%;
+    height: 100%;
+    padding-left: 2%;
+    padding-bottom: 2%;
 }
 
 #backbutton
 {
-  position: absolute;
-  right: 25px;
-  top: 25px;
+  float: left;
+    width: 15%;
+    height: 100%;
   display: none;
 }
 
+#main
+{
+    float: left;
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    overflow: auto;
+}
+
+#main2
+{
+    float: left;
+  width: 100%;
+  height: 100%;
+  color: #FFFFFF;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-indent: 5%;
+    overflow: auto;
+}
+
+
+
 #chosenVacancy
 {
+    float: left;
+    width: 100%;
+    height: 100%;
   background-color: #FFFFFF;
   color: #0094d0;
 }
 
 #footer
 {
-  margin-top: 300px;
+    float: left;
+  margin-top: 5%;
   width: 100%;
-  height: 150px;
+  height: 5%;
   background-color: #0094d0;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 0%;
+}
+
+.footer
+{
+    float: left;
+  margin-top: 5%;
+  width: 100%;
+  height: 15%;
+  background-color: #0094d0;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 0%;
 }
 
 #popUpScreen
 {
-  margin-top: 300px;
+    float: left;
+  margin-top: 5%;
   width: 100%;
-  height: 120px;
+  height: 100%;
   background-color: #0094d0;
   color: #FFFFFF;
   text-align: center;
-  padding-top: 45px;
+  padding-top: 5%;
 }
 
 #infoText
 {
+    float: left;
   color: #0094d0;
   font-weight: normal;
-  font-size: 1.5vw;
+  font-size: 100%;
 }

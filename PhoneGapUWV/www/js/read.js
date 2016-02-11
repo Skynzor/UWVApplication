@@ -24,6 +24,8 @@ function jsonToArray(result)
 // Voor iedere vacancyTitle in de Javascript array: maak een nieuw div element aan.
 function appendArrayToApp(array)
 {
+    $("#chosenVacancy").hide();
+  $("#main2").hide();
   for(i = 0; i < array.length; i++)
   {
     if(i % 2 == 0)
@@ -67,6 +69,7 @@ function appendArrayToApp(array)
         yMousePoint = event.clientY;
         vacancy = $(document.elementFromPoint(xMousePoint, yMousePoint)).text();
         readAll(vacancy);
+        
       });
     }
   }
