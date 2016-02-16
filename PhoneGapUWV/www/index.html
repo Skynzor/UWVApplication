@@ -19,4 +19,15 @@
     <script type="text/javascript" src="js/functions.js"></script>
     <script type="text/javascript" src="js/gmail.js"></script>
     <script type="text/javascript" src="js/jquery.js"></script>
+	
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	
+	//update the vacancy list if there is a new vacancy
+	<script type="text/javascript">
+	window.setInterval(function(){
+		$('#allVacancies').empty();	
+		read();
+		alert("Vacancies refreshed!");
+	}, 1200000);
+	</script>
 </html>
