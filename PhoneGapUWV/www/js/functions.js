@@ -29,7 +29,7 @@ function showPopUpScreen(input)
 
   if(input == "Correct")
   {
-    $("#popUpScreen").append("<div id='popUpText' class='text'>Bedankt voor je reactie. Je hoort snel van ons!</div>");
+    $("#popUpScreen").append("<div id='popUpText' class='text'>Bedankt voor je reactie. Je hoort van ons binnen 3 werkdagen!</div>");
     sendGmail();
   }
   else if(input == "Wrong")
