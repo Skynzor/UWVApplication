@@ -1,0 +1,274 @@
+html, body
+{
+	width: 100%;
+	height: 100%;
+	padding: 0%;
+	margin: 0%;
+	background-color: #FFFFFF;
+}
+
+.icon
+{
+	width: 35px;
+	height: 35px;
+	padding-right: 40px;
+	
+	/*float: left;
+	width: 15%;
+	height: 100%;
+	padding-left: 2%;*/
+}
+
+.text
+{
+    font-weight: bold;
+	font-size: 100%;
+	font-family: "Verdana";
+	padding-left: 35px;
+	
+	/*werkende
+	font-weight: bold;
+	font-size: 2.0vw;
+	font-family: "Verdana";
+	padding-left: 35px;*/
+	
+	/*niet werkende
+	float: left;
+    font-size: 100%;
+    font-family: "Verdana";
+    line-height: 375%;*/
+}
+
+.vacancy
+{
+	width: auto;
+	height: 75px;
+	color: #FFFFFF;
+	padding-top: 35px;
+	
+	/*
+	width: auto;
+	height: 75px;
+	color: #FFFFFF;
+	padding-top: 35px;*/
+	
+	/*
+	float: left;
+	width: 100%;
+	height: 10%;
+	color: #FFFFFF;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-indent: 5%;*/
+}
+
+.input
+{
+	height: 30px; /*nu beweegt toetsenbord mee naar boven*/
+	text-align: center;
+	color: #0094d0;
+	font-weight: bold;
+}
+
+#header
+{
+	width: 100%;
+	height: 75px;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 45px;
+	
+	/*werkend
+	width: 100%;
+	height: 75px;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 45px;*/
+	
+	/*niet werkend
+	font-weight: bold;
+	float: left;
+	width: 100%;
+	height: 12%;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 1%;*/
+}
+
+#logo
+{
+	position: absolute;
+	top: 25px;
+	left: 25px;
+	
+	/*werkend
+	position: absolute;
+	top: 25px;
+	left: 25px;*/
+  
+	/*niet werkend
+	float: left;
+    width: 15%;
+    height: 100%;
+    padding-left: 2%;
+    padding-bottom: 2%;*/
+}
+
+#backbutton
+{
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	display: none;
+	
+	/*werkend
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	display: none;*/
+	
+	/*niet werkend
+	float: left;
+    width: 15%;
+    height: 100%;
+	display: none;*/
+}
+
+#chosenVacancy
+{
+    float: left;
+    width: 100%;
+    /*height: 100%; van werkend*/
+	background-color: #FFFFFF;
+	color: #0094d0;
+}
+
+#footer
+{
+    margin-top: 30px;
+	width: 100%;
+	height: 150px;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 35px;
+	
+	/*werkend
+	margin-top: 300px;
+	width: 100%;
+	height: 150px;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 35px;*/
+	
+	/*niet werkend
+	float: left;
+	margin-top: 5%;
+	width: 100%;
+	height: 5%;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 0%;*/
+}
+
+.footer
+{
+    float: left;
+  margin-top: 5%;
+  width: 100%;
+  height: 15%;
+  background-color: #0094d0;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 0%;
+}
+
+#popUpScreen
+{
+    margin-top: 300px;
+	width: 100%;
+	height: 120px;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 45px;
+	
+	/*werkend
+	margin-top: 300px;
+	width: 100%;
+	height: 120px;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 45px;*/
+	
+	/*niet werkend
+	float: left;
+	margin-top: 5%;
+	width: 100%;
+	height: 100%;
+	background-color: #0094d0;
+	color: #FFFFFF;
+	text-align: center;
+	padding-top: 5%;*/
+}
+
+#infoText
+{
+    color: #0094d0;
+	font-weight: normal;
+	font-size: 1.5vw;
+  
+	/*werkend
+	color: #0094d0;
+	font-weight: normal;
+	font-size: 1.5vw;*/
+	
+	/*niet werkend
+	float: left;
+	color: #0094d0;
+	font-weight: normal;
+	font-size: 100%;*/
+}
+
+#container
+{
+	width: 100%; 
+	height: 100%;    
+	background-color: white;
+}
+
+#infobutton
+{
+	position: absolute;
+	right: 25px;
+	top: 25px;
+	display: none;
+}
+
+#main
+{
+    float: left;
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    overflow: auto;
+}
+
+#main2
+{
+    float: left;
+	width: 100%;
+	height: 100%;
+	color: #FFFFFF;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-indent: 5%;
+    overflow: auto;
+}
