@@ -95,6 +95,7 @@ function appendToDetailsPage(vacancy, description, requirements, hours, category
 
   $("#chosenVacancy").append("<div id='footer'></div>");
 
+  $("#footer").append("<p style='font-size: 90%;'>Vul uw e-mail en/of telefoonnummer in");
   $("#footer").append("<div id='email'><input id='inputEmail' class='input' onclick='removeValue(this.id);' type='email' value='Jouw emailadres'></input></div>");
   $("#footer").append("<div id='phone'><input id='inputPhone' class='input' onclick='removeValue(this.id);' type='tel' value='Jouw telefoonnummer'></input></div>");
   $("#footer").append("<div id='reactButton'><img onclick='checkCorrectInput();' src='img/react.png' alt='react'/></div>");
