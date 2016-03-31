@@ -11,7 +11,7 @@ function checkCorrectInput()
     var email = $("#inputEmail").val();
     var phone = $("#inputPhone").val();
 
-    if ((email.indexOf("@") != -1) && phone.length == 10)
+    if ((email.indexOf("@") != -1) | phone.length == 10)
     {
         showPopUpScreen("Correct");
     }
