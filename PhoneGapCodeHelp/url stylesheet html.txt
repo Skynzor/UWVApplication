@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/26904513/phonegap-jquery-mobile-css-not-working
