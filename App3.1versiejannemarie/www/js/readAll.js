@@ -60,7 +60,7 @@ function appendToDetailsPage(id, vacancy, description, requirements, maxhours, m
   $("#chosenVacancy").empty();
   $("#chosenVacancyAll").empty();
   //details-scherm balk met icon + titel
-  $("#chosenVacancy").append("<div id='vacancy' class='vacancy text'>"+ vacancy + " " + id + "</div>");
+  $("#chosenVacancy").append("<div id='vacancy' class='vacancy text'>"+ vacancy + " (" + id + ")</div>");
   $("#chosenVacancy").append("<div id='hiddenid'>" + id + "</div>");
   
   //alert(id);
